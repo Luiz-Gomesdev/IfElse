@@ -1,0 +1,10 @@
+package luiz.udemy.estruturaCondicional1;
+
+public class NegativoIfElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,36 @@
+package luiz.udemy.estruturaCondicional5;
+
+import java.util.Scanner;
+
+public class ValorConta {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Digite o código do Item: ");
+		int codigo = sc.nextInt();
+
+		System.out.println("Digite a quantidade: ");
+		int quantidade = sc.nextInt();
+
+		double t = 0;
+		if (codigo == 1) {
+			t = quantidade * 4.0;
+		}else if (codigo == 2) {
+			t = quantidade * 4.5;
+		}else if (codigo == 3) {
+			t = quantidade * 5.0;
+		}else if (codigo == 4) {
+			t = quantidade * 2.0;
+		}else if (codigo == 5) {
+			t = quantidade * 1.5;
+		}
+
+		System.out.printf("Total: R$ %.2f\n" , t);
+
+		sc.close();
+
+	}
+
+}

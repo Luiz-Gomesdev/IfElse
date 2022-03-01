@@ -1,0 +1,10 @@
+package luiz.udemy.estruturaCondicional6;
+
+public class Intervalo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

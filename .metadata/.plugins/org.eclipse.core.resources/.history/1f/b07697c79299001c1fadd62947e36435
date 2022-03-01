@@ -1,0 +1,10 @@
+package luiz.udemy.estruturaCondicional8;
+
+public class ImpostoDeRenda {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
